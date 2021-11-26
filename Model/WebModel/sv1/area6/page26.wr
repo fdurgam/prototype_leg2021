@@ -1,0 +1,38 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="70" gr:y="190" id="sv1#area6#page26" name="Editar" linkOrder="sv1#area6#page26#ln96">
+  <ContentUnits>
+    <EntryUnit gr:x="0" gr:y="0" id="sv1#area6#page26#enu17" name="Responsable" entity="ent3" linkOrder="sv1#area6#page26#enu17#ln95">
+      <Field id="sv1#area6#page26#enu17#fld44" name="nombre" type="string" modifiable="true" attribute="ent3#att5"/>
+      <Field id="sv1#area6#page26#enu17#fld45" name="apellido" type="string" modifiable="true" attribute="ent3#att7"/>
+      <Field id="sv1#area6#page26#enu17#fld46" name="dni" type="string" modifiable="true" attribute="ent3#att8"/>
+      <Field id="sv1#area6#page26#enu17#fld47" name="fecha_Nacimiento" type="date" modifiable="true" attribute="ent3#att10"/>
+      <MultiSelectionField id="sv1#area6#page26#enu17#msfld2" name="ResponsableToTarea" type="string" role="rel1#role2"/>
+      <Link id="sv1#area6#page26#enu17#ln95" name="Flow95" to="sv1#area6#mfu1" automaticCoupling="true" type="normal" validate="true"/>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area6#page26#enu17">
+          <layout:Field field="sv1#area6#page26#enu17#fld44"/>
+          <layout:Field field="sv1#area6#page26#enu17#fld45"/>
+          <layout:Field field="sv1#area6#page26#enu17#fld46"/>
+          <layout:Field field="sv1#area6#page26#enu17#fld47"/>
+          <layout:Field field="sv1#area6#page26#enu17#msfld2"/>
+          <layout:Link link="sv1#area6#page26#enu17#ln95"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+  <Link id="sv1#area6#page26#ln96" name="Cancelar" to="sv1#area6#page15" automaticCoupling="true" type="normal" validate="true"/>
+</Page>

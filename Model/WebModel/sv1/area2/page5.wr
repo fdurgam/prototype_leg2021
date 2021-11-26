@@ -1,0 +1,46 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1#area2#page5" name="Home" layout:splitSubPages="false" gr:x="0" gr:y="0" landmark="true">
+  <ContentUnits>
+    <MultiMessageUnit id="sv1#area2#page5#mssu3" name="Sistema de Administraci&#243;n de Recursos" gr:x="0" gr:y="0">
+      <Message xml:space="preserve">Bienvenidos al Sistema de Administraci&#243;n de Recursos Humanos de la Universidad Nacional de Salta
+El desarrollo consiste en la asigancion de treas de personal y gestion de Recursos Humanos
+2021</Message>
+    </MultiMessageUnit>
+    <MultiMessageUnit gr:x="25" gr:y="85" id="sv1#area2#page5#mssu7" name="Derechos de Copia y lienciamiento">
+      <Message xml:space="preserve">Derecho de Uso y Propiedad .......</Message>
+    </MultiMessageUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area2#page5#mssu3"/>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area2#page5#mssu7"/>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+</Page>

@@ -1,0 +1,88 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="15" gr:y="530" id="sv1#area5#page20" name="Responsable Tarea" linkOrder="sv1#area5#page20#ln83" landmark="false">
+  <ContentUnits>
+    <DataUnit gr:x="0" gr:y="0" id="sv1#area5#page20#dau6" name="Details6" entity="ent1" displayAttributes="ent1#att1 ent1#att2 ent1#att6 ent1#att9">
+      <Selector id="sv1#area5#page20#dau6#su31" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#area5#page20#dau6#su31#kcond31" name="KeyCondition31" predicate="in" implied="false"/>
+      </Selector>
+      <Link id="sv1#area5#page20#dau6#ln74" name="Flow74" to="sv1#area5#page20#enu15" automaticCoupling="true" type="transport" validate="true"/>
+    </DataUnit>
+    <SelectorUnit gr:x="355" gr:y="10" id="sv1#area5#page20#seu4" name="Selector4" entity="ent3" distinctAttributes="ent3#att4 ent3#att5 ent3#att7 ent3#att8">
+      <Link id="sv1#area5#page20#seu4#ln75" name="Flow75" to="sv1#area5#page20#enu15" type="transport" validate="true">
+        <LinkParameter id="sv1#area5#page20#seu4#ln75#par56" name="oid_responsable_TareaToResponsable [output]" source="ent3#att4Array" target="sv1#area5#page20#enu15#sfld4_output"/>
+        <LinkParameter id="sv1#area5#page20#seu4#ln75#par57" name="oid_responsable_Key Condition [oid_tarea]" source="ent3#att4Array" target="sv1#area5#page20#enu15.ent1#att1"/>
+        <LinkParameter id="sv1#area5#page20#seu4#ln75#par58" name="dni_TareaToResponsable [label]" source="ent3#att8Array" target="sv1#area5#page20#enu15#sfld4_label"/>
+      </Link>
+    </SelectorUnit>
+    <EntryUnit gr:x="195" gr:y="10" id="sv1#area5#page20#enu15" name="Responsable" entity="ent1" linkOrder="sv1#area5#page20#enu15#ln76" fieldOrder="sv1#area5#page20#enu15#fld34 sv1#area5#page20#enu15#fld35 sv1#area5#page20#enu15#fld36 sv1#area5#page20#enu15#sfld4">
+      <Field id="sv1#area5#page20#enu15#fld33" name="oid_tarea" type="integer" attribute="ent1#att1" hidden="true"/>
+      <Field id="sv1#area5#page20#enu15#fld34" name="nombre" type="string" attribute="ent1#att2"/>
+      <Field id="sv1#area5#page20#enu15#fld35" name="fechaCreacion" type="date" attribute="ent1#att6"/>
+      <Field id="sv1#area5#page20#enu15#fld36" name="descripcion" type="string" attribute="ent1#att9"/>
+      <SelectionField id="sv1#area5#page20#enu15#sfld4" name="TareaToResponsable" type="string" role="rel1#role1"/>
+      <Link id="sv1#area5#page20#enu15#ln76" name="Aceptar" to="sv1#area5#cnu12" type="normal" validate="true">
+        <LinkParameter id="sv1#area5#page20#enu15#ln76#par59" name="Key [oid_tarea]_KeyCondition32 [oid_tarea] [Tareas] [Source]" source="key.ent1#att1" target="sv1#area5#cnu12#su32#kcond32.ent1#att1"/>
+        <LinkParameter id="sv1#area5#page20#enu15#ln76#par60" name="TareaToResponsable_KeyCondition33 [oid_responsable] [Responsable] [Target]" source="sv1#area5#page20#enu15#sfld4" target="sv1#area5#cnu12#su33#kcond33.ent3#att4"/>
+      </Link>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area5#page20#dau6">
+          <layout:Attribute attribute="ent1#att1"/>
+          <layout:Attribute attribute="ent1#att2"/>
+          <layout:Attribute attribute="ent1#att6"/>
+          <layout:Attribute attribute="ent1#att9"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area5#page20#enu15">
+          <layout:Link link="sv1#area5#page20#enu15#ln76"/>
+          <layout:Field field="sv1#area5#page20#enu15#fld34"/>
+          <layout:Field field="sv1#area5#page20#enu15#fld35"/>
+          <layout:Field field="sv1#area5#page20#enu15#fld36"/>
+          <layout:Field field="sv1#area5#page20#enu15#sfld4"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+  <Link id="sv1#area5#page20#ln83" name="Cancelar" to="sv1#area5#page10" automaticCoupling="true" type="normal" validate="true"/>
+</Page>

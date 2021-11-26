@@ -1,0 +1,66 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1#area5#page10" name="Lista de Tareas" gr:x="0" gr:y="0" linkOrder="sv1#area5#page10#ln79" landmark="true">
+  <ContentUnits>
+    <IndexUnit id="sv1#area5#page10#inu4" name="Lista de Tareas" linkOrder="sv1#area5#page10#inu4#ln46 sv1#area5#page10#inu4#ln59 sv1#area5#page10#inu4#ln78" gr:x="25" gr:y="0" entity="ent1" displayAttributes="ent1#att2 ent1#att6 ent1#att9 rel1#role1.ent3#att7 rel1#role1.ent3#att5 ent1#att1">
+      <Link id="sv1#area5#page10#inu4#ln46" name="Detalles" to="sv1#area5#page11#dau4" type="normal" automaticCoupling="true" validate="true"/>
+      <Link id="sv1#area5#page10#inu4#ln59" name="Eliminar" to="sv1#area5#dlu1" type="normal" automaticCoupling="true" validate="true"/>
+      <Link id="sv1#area5#page10#inu4#ln78" name="Responsable" to="sv1#area5#page20#enu15" type="normal" automaticCoupling="true" validate="true"/>
+    </IndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area5#page10#inu4">
+          <layout:Attribute attribute="ent1#att2"/>
+          <layout:Attribute attribute="ent1#att6"/>
+          <layout:Attribute attribute="ent1#att9"/>
+          <layout:Attribute attribute="rel1#role1.ent3#att7"/>
+          <layout:Attribute attribute="rel1#role1.ent3#att5"/>
+          <layout:Attribute attribute="ent1#att1"/>
+          <layout:Link link="sv1#area5#page10#inu4#ln46"/>
+          <layout:Link link="sv1#area5#page10#inu4#ln59"/>
+          <layout:Link link="sv1#area5#page10#inu4#ln78"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+  <Link id="sv1#area5#page10#ln79" name="Nueva" to="sv1#area5#page19" type="normal" automaticCoupling="true" validate="true"/>
+</Page>

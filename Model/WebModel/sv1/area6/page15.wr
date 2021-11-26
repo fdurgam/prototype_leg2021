@@ -1,0 +1,63 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" id="sv1#area6#page15" name="Responsables" gr:x="40" gr:y="0" landmark="true" linkOrder="sv1#area6#page15#ln89">
+  <ContentUnits>
+    <PowerIndexUnit id="sv1#area6#page15#pwu3" name="Lista de Empleados" gr:x="0" gr:y="0" sortable="true" checkable="false" useCountQuery="false" entity="ent3" displayAttributes="ent3#att5 ent3#att7 ent3#att8" linkOrder="sv1#area6#page15#pwu3#ln88 sv1#area6#page15#pwu3#ln92 sv1#area6#page15#pwu3#ln94">
+      <Link id="sv1#area6#page15#pwu3#ln88" name="Eliminar" to="sv1#area6#dlu2" automaticCoupling="true" type="normal" validate="true"/>
+      <Link id="sv1#area6#page15#pwu3#ln92" name="Detalles" to="sv1#area6#page25#dau8" automaticCoupling="true" type="normal" validate="true"/>
+      <Link id="sv1#area6#page15#pwu3#ln94" name="Editar" to="sv1#area6#page26#enu17" automaticCoupling="true" type="normal" validate="true"/>
+    </PowerIndexUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area6#page15#pwu3">
+          <layout:Attribute attribute="ent3#att5"/>
+          <layout:Attribute attribute="ent3#att7"/>
+          <layout:Attribute attribute="ent3#att8"/>
+          <layout:Link link="sv1#area6#page15#pwu3#ln88"/>
+          <layout:Link link="sv1#area6#page15#pwu3#ln92"/>
+          <layout:Link link="sv1#area6#page15#pwu3#ln94"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+    <layout:Row>
+      <layout:Cell colspan="12"/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+  <Link id="sv1#area6#page15#ln89" name="Nuevo" to="sv1#area6#page24" automaticCoupling="true" type="normal" validate="true"/>
+</Page>

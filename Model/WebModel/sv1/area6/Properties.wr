@@ -1,0 +1,22 @@
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="30" gr:y="1205" id="sv1#area6" name="Personal" landmark="true" defaultPage="sv1#area6#dlu2" landmarks="sv1#area6#page15">
+  <OperationUnits>
+    <CreateUnit id="sv1#area6#cru4" name="Responsables Grabar" landmark="false" gr:x="275" gr:y="600" entity="ent3">
+      <OKLink id="sv1#area6#cru4#oln24" name="OKFlow2" to="sv1#area6#page15" automaticCoupling="true"/>
+      <KOLink id="sv1#area6#cru4#kln12" name="KOFlow2" to="sv1#area6#page17" automaticCoupling="true"/>
+    </CreateUnit>
+    <DeleteUnit gr:x="560" gr:y="15" id="sv1#area6#dlu2" name="Delete2" entity="ent3">
+      <Selector id="sv1#area6#dlu2#su35" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#area6#dlu2#su35#kcond35" name="KeyCondition35" predicate="in" implied="false"/>
+      </Selector>
+      <KOLink id="sv1#area6#dlu2#kln18" name="KOFlow18" to="sv1#area6#page17" automaticCoupling="true"/>
+      <OKLink id="sv1#area6#dlu2#oln28" name="OKFlow28" to="sv1#area6#page15" automaticCoupling="true"/>
+    </DeleteUnit>
+    <ModifyUnit gr:x="0" gr:y="440" id="sv1#area6#mfu1" name="Update1" entity="ent3">
+      <Selector id="sv1#area6#mfu1#su37" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#area6#mfu1#su37#kcond37" name="KeyCondition37" predicate="in" implied="false"/>
+      </Selector>
+      <OKLink id="sv1#area6#mfu1#oln29" name="Aceptar" to="sv1#area6#page15" automaticCoupling="true"/>
+      <KOLink id="sv1#area6#mfu1#kln19" name="KOFlow19" to="sv1#area6#page17" automaticCoupling="true"/>
+    </ModifyUnit>
+  </OperationUnits>
+</Area>

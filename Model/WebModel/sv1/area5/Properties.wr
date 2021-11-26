@@ -1,0 +1,25 @@
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" id="sv1#area5" name="Tareas" landmark="true" gr:x="25" gr:y="305" defaultPage="sv1#area5#cnu12" landmarks="sv1#area5#page10 sv1#area5#page19">
+  <OperationUnits>
+    <CreateUnit id="sv1#area5#cru3" name="Tareas_Grabar" gr:x="645" gr:y="395" entity="ent1">
+      <KOLink id="sv1#area5#cru3#kln10" name="KOFlow8" to="sv1#area5#page16" automaticCoupling="true"/>
+      <OKLink id="sv1#area5#cru3#oln22" name="OKFlow8" to="sv1#area5#page10" automaticCoupling="true"/>
+    </CreateUnit>
+    <DeleteUnit id="sv1#area5#dlu1" name="Delete" gr:x="440" gr:y="80" entity="ent1">
+      <Selector id="sv1#area5#dlu1#su26" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#area5#dlu1#su26#kcond26" name="KeyCondition8" predicate="in" implied="false"/>
+      </Selector>
+      <KOLink id="sv1#area5#dlu1#kln11" name="KOFlow7" to="sv1#area5#page16#mssu4" automaticCoupling="true"/>
+      <OKLink id="sv1#area5#dlu1#oln23" name="OKFlow7" to="sv1#area5#page10" automaticCoupling="true"/>
+    </DeleteUnit>
+    <ConnectUnit gr:x="630" gr:y="670" id="sv1#area5#cnu12" name="Connect12" relationship="rel1#role1">
+      <SourceSelector id="sv1#area5#cnu12#su32" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#area5#cnu12#su32#kcond32" name="KeyCondition32" predicate="in" implied="false"/>
+      </SourceSelector>
+      <TargetSelector id="sv1#area5#cnu12#su33" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="sv1#area5#cnu12#su33#kcond33" name="KeyCondition33" predicate="in" implied="false"/>
+      </TargetSelector>
+      <KOLink id="sv1#area5#cnu12#kln17" name="KOFlow17" to="sv1#area5#cru3" automaticCoupling="true"/>
+      <OKLink id="sv1#area5#cnu12#oln27" name="OKFlow27" to="sv1#area5#page10#inu4" automaticCoupling="true"/>
+    </ConnectUnit>
+  </OperationUnits>
+</Area>

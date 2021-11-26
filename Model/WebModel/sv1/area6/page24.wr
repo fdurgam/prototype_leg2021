@@ -1,0 +1,36 @@
+<Page xmlns:gr="http://www.webratio.com/2006/WebML/Graph" xmlns:layout="http://www.webratio.com/2006/WebML/Layout" gr:x="430" gr:y="200" id="sv1#area6#page24" name="Nuevo Responsable" linkOrder="sv1#area6#page24#ln91">
+  <ContentUnits>
+    <EntryUnit gr:x="0" gr:y="0" id="sv1#area6#page24#enu16" name="Responsables" entity="ent3" fieldOrder="sv1#area6#page24#enu16#fld40 sv1#area6#page24#enu16#fld41 sv1#area6#page24#enu16#fld42 sv1#area6#page24#enu16#fld43" linkOrder="sv1#area6#page24#enu16#ln90">
+      <Field id="sv1#area6#page24#enu16#fld40" name="nombre" type="string" modifiable="true" attribute="ent3#att5"/>
+      <Field id="sv1#area6#page24#enu16#fld41" name="apellido" type="string" modifiable="true" attribute="ent3#att7"/>
+      <Field id="sv1#area6#page24#enu16#fld42" name="dni" type="string" modifiable="true" attribute="ent3#att8"/>
+      <Field id="sv1#area6#page24#enu16#fld43" name="fecha_Nacimiento" type="date" modifiable="true" attribute="ent3#att10"/>
+      <Link id="sv1#area6#page24#enu16#ln90" name="Aceptar" to="sv1#area6#cru4" automaticCoupling="true" type="normal" validate="true"/>
+    </EntryUnit>
+  </ContentUnits>
+  <layout:Grid containerType="grid">
+    <layout:Row>
+      <layout:Cell colspan="12">
+        <layout:Unit unitId="sv1#area6#page24#enu16">
+          <layout:Field field="sv1#area6#page24#enu16#fld40"/>
+          <layout:Field field="sv1#area6#page24#enu16#fld41"/>
+          <layout:Field field="sv1#area6#page24#enu16#fld42"/>
+          <layout:Field field="sv1#area6#page24#enu16#fld43"/>
+          <layout:Link link="sv1#area6#page24#enu16#ln90"/>
+        </layout:Unit>
+      </layout:Cell>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+      <layout:Cell/>
+    </layout:Row>
+  </layout:Grid>
+  <Link id="sv1#area6#page24#ln91" name="Cancelar" to="sv1#area6#page15" automaticCoupling="true" type="normal" validate="true" gr:bendpoints="-211,-56,189,79"/>
+</Page>
